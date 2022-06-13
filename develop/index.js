@@ -131,4 +131,7 @@ function init() {
 }
 
 // Function call to initialize app
-functioninit()
+function init(initializeApp) {
+    console.log(initializeApp);
+};
+

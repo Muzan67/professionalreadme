@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Muzan67/professionalreadme/issues"
   },
-  "homepage": "https://github.com/Muzan67/professionalreadme#readme"
+  "homepage": "https://github.com/Muzan67/professionalreadme#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
