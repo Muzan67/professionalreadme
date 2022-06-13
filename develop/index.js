@@ -121,14 +121,14 @@ const questions = [
 // TODO: Create a function to initialize app
 function init() {
     return inquirer.prompt(questions)
-        .then(answers) => {
+        .then(answers => {
             console.log(answers)
             return answers 
-        }
-        .catch(error) => {
-            console.log(error)
-        }
+        })
+        .catch(err => {
+            console.log(err);
+        });
 }
 
 // Function call to initialize app
-functioninit();
+functioninit()
