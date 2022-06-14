@@ -90,7 +90,7 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'project',
+        name: 'project1',
         message: 'What does the user need to know about using this repo? (Required)',
         validate: repoInput => {
           if (repoInput) {
@@ -103,10 +103,10 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'project',
+        name: 'project2',
         message: 'What does the user need to know about contributing to this repo? (Required)',
         validate: contributionInput => {
-          if (conrtibutionInput) {
+          if (contributionInput) {
             return true;
           } else {
             console.log('Please enter contribution information about using this repo?');
@@ -117,11 +117,12 @@ const questions = [
 ]
   
 // TODO: Create a function to write README file
-
 // TODO: Create a function to initialize app
+
 function init() {
     return inquirer.prompt(questions)
         .then(answers => {
+          console.log('can you se this')
             console.log(answers)
             return answers 
         })
