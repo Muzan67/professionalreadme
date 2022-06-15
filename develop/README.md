@@ -1,8 +1,8 @@
 
-    
+
 ## Table of Contents
 
-- [Github Accoun](#GithubAccount)
+- [Github Account](#GithubAccount)
 - [User Email](#UserEmail)
 - [Project Name](#ProjectName)
 - [Description](#Description)
@@ -11,6 +11,7 @@
 - [Command](#Command)
 - [Installation](#Installation)
 - [Contributing](#Contributing)
+- [License](#License)
    
 ## Github Account
 Muzan67
@@ -22,10 +23,10 @@ ac.tendo67@gmail.com
 Professional ReadME
 
 ## Description
-When the user answers all prompts, a unique Professional ReadME will be generated for the user
+creates a readme
 
 ## License
-MIT
+
 
 ## Dependencies
 npm i
@@ -34,8 +35,8 @@ npm i
 npm run
 
 ## User-Info
-The repo contains files to create a unique Professional ReadME for the user
+repo contains instructions for readme
 
 ## Contributing
-All information is located in the readme
-
+nothing
+    
