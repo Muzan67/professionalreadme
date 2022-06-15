@@ -1,5 +1,7 @@
 
 
+# undefined
+
 ## Table of Contents
 
 - [Github Account](#GithubAccount)
@@ -14,19 +16,19 @@
 - [License](#License)
    
 ## Github Account
-Muzan67
+muzan67
 
 ## User email
 ac.tendo67@gmail.com
         
 ## Project Name
-Professional ReadME
+pro readme
 
 ## Description
-creates a readme
+creates readme
 
 ## License
-
+undefined
 
 ## Dependencies
 npm i
@@ -35,8 +37,7 @@ npm i
 npm run
 
 ## User-Info
-repo contains instructions for readme
+creates readme
 
 ## Contributing
 nothing
-    
