@@ -1,0 +1,46 @@
+class MarkDown {
+    static generateReadMe(answers) {
+        return `
+    
+    ## Table of Contents
+    - [Github accoun](#Github Account)
+    - [User email](#User Email)
+    - [Project name](#Project Name)
+    - [Description](#Description)
+    - [License](#License)
+    - [Dependencies](#Dependencies)
+    - [Installation](#Installation)
+    - [Contributing](#Contributing)
+    - [Questions](#Questions)
+
+    ## Github Account
+    ${answers.github}
+
+    ## User email
+    ${answers.email}
+        
+    ## Project Name
+    ${answers.project}
+
+    ## Description
+    ${answers.description}
+
+    ## License
+    ${answers.license}
+
+    ## Dependencies
+    ${answers.dependencies}
+
+    ## Command
+    ${answers.command}
+
+    ## User-Info
+    ${answers.userinfo}
+
+    ## Contributing
+    ${answers.contributing}
+` 
+    }
+}
+
+module.exports = MarkDown

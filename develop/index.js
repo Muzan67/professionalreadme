@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
 const fs = require("fs")
+const MarkDown = require('./lib/ReadMEjs')
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -90,7 +91,7 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'project1',
+        name: 'userinfo',
         message: 'What does the user need to know about using this repo? (Required)',
         validate: repoInput => {
           if (repoInput) {
@@ -103,10 +104,10 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'project2',
+        name: 'contributing',
         message: 'What does the user need to know about contributing to this repo? (Required)',
-        validate: contributionInput => {
-          if (contributionInput) {
+        validate: contributingInput => {
+          if (contributingInput) {
             return true;
           } else {
             console.log('Please enter contribution information about using this repo?');
@@ -122,8 +123,8 @@ const questions = [
 function init() {
     return inquirer.prompt(questions)
         .then(answers => {
-          console.log('can you se this')
-            console.log(answers)
+          const mark = MarkDown.generateReadMe(answers)
+            console.log(mark)
             return answers 
         })
         .catch(err => {
