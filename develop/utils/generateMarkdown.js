@@ -10,8 +10,8 @@ function renderLicenseBadge(license) {
     apache:'[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
     mozilla:'[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)',
     mit: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
-}
-return badges[license]
+  }  
+  return badges[license]
 }
 
 // TODO: Create a function that returns the license link
@@ -37,11 +37,11 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(answer) {
+function generateMarkdown(answers) {
 
 return `
 
-# ${answer.title}
+# ${answers.title}
 
 ## Table of Contents
 
@@ -69,7 +69,7 @@ ${answers.project}
 ${answers.description}
 
 ## License
-${this.renderLicenseSection(answers.license)}
+${answers.license}
 
 ## Dependencies
 ${answers.dependencies}
@@ -86,4 +86,4 @@ ${answers.contributing}
 }
 
 // exports
-module.exports = generateMarkdown;
+module.exports = generateMarkdown

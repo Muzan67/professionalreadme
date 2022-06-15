@@ -122,7 +122,7 @@ const questions = [
 function init() {
     return inquirer.prompt(questions)
         .then(answers => {
-          const mark = MarkDown.generatMarkdown(answers)
+          const mark = generateMarkDown(answers)
             fs.writeFile('README.md', mark, function (err) {
               if(err) {
                 console.log('Could not generate ReadME')
