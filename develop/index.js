@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
 const fs = require("fs")
-const MarkDown = require('./lib/ReadMEjs')
+const generateMarkDown = require('./utils/generateMarkdown.js')
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -118,12 +118,11 @@ const questions = [
 ]
   
 // TODO: Create a function to write README file
-// TODO: Create a function to initialize app
 
 function init() {
     return inquirer.prompt(questions)
         .then(answers => {
-          const mark = MarkDown.generateReadMe(answers)
+          const mark = MarkDown.generatMarkdown(answers)
             fs.writeFile('README.md', mark, function (err) {
               if(err) {
                 console.log('Could not generate ReadME')

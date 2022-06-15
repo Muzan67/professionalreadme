@@ -28,8 +28,12 @@ class MarkDown {
         }
     }
 
-    static generateReadMe(answers) {
-        return `
+// function to generate markdown for README.md
+
+static generateReadMe(answers) {
+
+    return `
+# ${answers.title}
 
 ## Table of Contents
 
@@ -74,4 +78,5 @@ ${answers.contributing}
     }
 }
 
+// exports
 module.exports = MarkDown
