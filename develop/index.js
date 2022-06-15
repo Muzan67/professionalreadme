@@ -124,8 +124,13 @@ function init() {
     return inquirer.prompt(questions)
         .then(answers => {
           const mark = MarkDown.generateReadMe(answers)
-            console.log(mark)
-            return answers 
+            fs.writeFile('README.md', mark, function (err) {
+              if(err) {
+                console.log('Could not generate ReadME')
+              } else {
+                console.log('Sucess: ReadME created')
+              }
+            })
         })
         .catch(err => {
             console.log(err);

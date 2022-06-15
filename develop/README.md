@@ -1,10 +1,8 @@
-class MarkDown {
-    static generateReadMe(answers) {
-    return `
+
     
 ## Table of Contents
 
-- [Github Account](#GithubAccount)
+- [Github Accoun](#GithubAccount)
 - [User Email](#UserEmail)
 - [Project Name](#ProjectName)
 - [Description](#Description)
@@ -15,34 +13,29 @@ class MarkDown {
 - [Contributing](#Contributing)
    
 ## Github Account
-${answers.github}
+Muzan67
 
 ## User email
-${answers.email}
+ac.tendo67@gmail.com
         
 ## Project Name
-${answers.project}
+Professional ReadME
 
 ## Description
-${answers.description}
+When the user answers all prompts, a unique Professional ReadME will be generated for the user
 
 ## License
-${answers.licenses}
+MIT
 
 ## Dependencies
-${answers.dependencies}
+npm i
 
 ## Command
-${answers.command}
+npm run
 
 ## User-Info
-${answers.userinfo}
+The repo contains files to create a unique Professional ReadME for the user
 
 ## Contributing
-${answers.contributing}
+All information is located in the readme
 
-` 
-    }
-}
-
-module.exports = MarkDown
