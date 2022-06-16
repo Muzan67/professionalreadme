@@ -1,6 +1,8 @@
 
+# Professional ReadME
 
-# undefined
+## License: MIT  
+### 
 
 ## Table of Contents
 
@@ -13,31 +15,33 @@
 - [Command](#Command)
 - [Installation](#Installation)
 - [Contributing](#Contributing)
-- [License](#License)
    
 ## Github Account
-muzan67
+ac.tendo67@gmail.com
 
 ## User email
 ac.tendo67@gmail.com
         
 ## Project Name
-pro readme
+Professional ReadME
 
 ## Description
-creates readme
+When user answer prompts a unique ReadME is generated.
 
 ## License
-undefined
+MIT
 
 ## Dependencies
 npm i
 
 ## Command
-npm run
+npm test
 
 ## User-Info
-creates readme
+Repo contains files to generate a unique ReadME.
 
 ## Contributing
-nothing
+Instructions are contained in the repo.
+
+## Questions
+[If you have any questions about the repo, open an issue or contact me directly at ac.tendo67@gmail.com You can find more of my work at https://github.com/Muzan67

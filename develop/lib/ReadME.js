@@ -20,9 +20,9 @@ class MarkDown {
          return licenseLinks[license]
     }
 
-    static renderLicenseSection(license) {
+    static renderLicenseSection(licenses) {
         if(license){
-            return `Licensed under the ${this.renderLicenseBadge(license)} license`
+            return `Licensed under the ${this.renderLicenseBadge(licenses)} license`
         } else {
             return ''
         }
@@ -61,7 +61,7 @@ ${answers.project}
 ${answers.description}
 
 ## License
-${this.renderLicenseSection(answers.license)}
+${this.renderLicenseSection(answers.licenses)}
 
 ## Dependencies
 ${answers.dependencies}

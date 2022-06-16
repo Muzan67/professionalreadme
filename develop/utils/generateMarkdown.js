@@ -5,15 +5,16 @@ const index =require('../index.js')
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  const badge = '';
+  console.log(license)
+  var badge = '';
   if (license === 'gnugplvs3') {
-    badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
+    badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)])'
   } else if (license === 'apache') {
-    badge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+    badge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)])'
   } else if (license === 'mozilla') { 
-    badge = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
+    badge = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]'
   } else if (license === 'mit') {
-    badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+    badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]'
   } else {
     badge = ""
   }
@@ -23,13 +24,13 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-    const licenseLink = '';
+    var licenseLink = '';
     if (license === 'gnugplvs3') {
        licenseLink = 'https://www.gnu.org/licenses'
       } else if (license === 'apache') {  
         licenseLink = 'http://www.apache.org/licenses/LICENSE-2.0'
       }  else if (license === 'mozilla') { 
-        licenseLink ='https://www.mozilla.org/en-US/MPL/license-policy/'
+        licenseLink ='https://opensource.org/licenses/MPL-2.0'
       } else if (license === 'mit') {
         licenseLink = 'https://choosealicense.com/licenses/mit/'
     } else {
@@ -55,10 +56,10 @@ function renderLicenseSection(license) {
 function generateMarkdown(answers) {
 
 return `
-# ${answers.title}
+# ${answers.project}
 
-## ${renderLicenseSection(answers.license)} ${renderLicenseBadge(answers.license)}
-### ${renderLicenseLink(answers.license)}
+## ${renderLicenseSection(answers.licenses)} ${renderLicenseBadge(answers.licenses)}
+### ${renderLicenseLink(answers.licenses)}
 
 ## Table of Contents
 
@@ -71,7 +72,6 @@ return `
 - [Command](#Command)
 - [Installation](#Installation)
 - [Contributing](#Contributing)
-- [License](#License)
    
 ## Github Account
 ${answers.github}
@@ -86,7 +86,7 @@ ${answers.project}
 ${answers.description}
 
 ## License
-${answers.license}
+${answers.licenses}
 
 ## Dependencies
 ${answers.dependencies}
@@ -99,6 +99,9 @@ ${answers.userinfo}
 
 ## Contributing
 ${answers.contributing}
+
+## Questions
+[If you have any questions about the repo, open an issue or contact me directly at ac.tendo67@gmail.com You can find more of my work at https://github.com/Muzan67
 `;
 }
 
