@@ -1,5 +1,5 @@
 
-# pro read me
+# pro readme
 
 ## Licence Badge
 [License: mit](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -20,13 +20,13 @@
 muzan67
 
 ## User email
-ac.tendo67@gmail.om
+ac.tendo67
         
 ## Project Name
-pro read me
+pro readme
 
 ## Description
-generates readme
+pro readme
 
 ## License
 mit
@@ -39,10 +39,10 @@ npm i
 npm test
 
 ## User-Info
-repo contains readme generator
+repo contains readme
 
 ## Contributing
-nothing
+instructions in repo
 
 ## Questions
  If you have any questions about the repo, open an issue or contact me directly at ac.tendo67@gmail.com You can find more of my work at https://github.com/Muzan67
