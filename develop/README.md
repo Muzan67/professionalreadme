@@ -1,8 +1,8 @@
 
-# test
+# pro read me
 
-## License: gnu gpl v3  
-### 
+## Licence Badge
+[License: mit](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Table of Contents
 
@@ -17,31 +17,32 @@
 - [Contributing](#Contributing)
    
 ## Github Account
-test
+muzan67
 
 ## User email
-test
+ac.tendo67@gmail.om
         
 ## Project Name
-test
+pro read me
 
 ## Description
-test
+generates readme
 
 ## License
-gnu gpl v3
+mit
+-[License: mit](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Dependencies
-test
+npm i
 
 ## Command
-test
+npm test
 
 ## User-Info
-test
+repo contains readme generator
 
 ## Contributing
-test
+nothing
 
 ## Questions
  If you have any questions about the repo, open an issue or contact me directly at ac.tendo67@gmail.com You can find more of my work at https://github.com/Muzan67

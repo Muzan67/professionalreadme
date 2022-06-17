@@ -58,8 +58,8 @@ function generateMarkdown(answers) {
 return `
 # ${answers.project}
 
-## ${renderLicenseSection(answers.licenses)} ${renderLicenseBadge(answers.licenses)}
-### ${renderLicenseLink(answers.licenses)}
+## Licence Badge
+[License: mit](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Table of Contents
 
@@ -87,6 +87,7 @@ ${answers.description}
 
 ## License
 ${answers.licenses}
+-[License: mit](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Dependencies
 ${answers.dependencies}
