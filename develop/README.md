@@ -1,7 +1,7 @@
 
 # test
 
-## License: mozilla public license 2.0  
+## License: gnu gpl v3  
 ### 
 
 ## Table of Contents
@@ -29,7 +29,7 @@ test
 test
 
 ## License
-mozilla public license 2.0
+gnu gpl v3
 
 ## Dependencies
 test
@@ -44,4 +44,4 @@ test
 test
 
 ## Questions
-[If you have any questions about the repo, open an issue or contact me directly at ac.tendo67@gmail.com You can find more of my work at https://github.com/Muzan67
+ If you have any questions about the repo, open an issue or contact me directly at ac.tendo67@gmail.com You can find more of my work at https://github.com/Muzan67
