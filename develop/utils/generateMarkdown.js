@@ -6,7 +6,7 @@ const index =require('../index.js')
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   console.log(license)
-  var badge = '';
+  let badge = '';
   if (license === 'gnugplvs3') {
     badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)])'
   } else if (license === 'apache') {
@@ -24,7 +24,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-    var licenseLink = '';
+    let licenseLink = '';
     if (license === 'gnugplvs3') {
        licenseLink = 'https://www.gnu.org/licenses'
       } else if (license === 'apache') {  
