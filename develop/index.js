@@ -61,7 +61,7 @@ const questions = [
         type: 'checkbox',
         name: 'licenses',
         message: 'What kind of liceses should your project have? (Choose your license)',
-        choices: ['GNU GPL v3', 'Apache License 2.0', 'Mozilla Public License 2.0', 'MIT'],
+        choices: ['gnu gpl v3', 'apache license 2.0', 'mozilla public license 2.0', 'mit'],
       },
       {
         type: 'input',

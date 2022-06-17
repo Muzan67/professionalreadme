@@ -1,7 +1,7 @@
 
 # test
 
-## License: MIT  
+## License: mozilla public license 2.0  
 ### 
 
 ## Table of Contents
@@ -29,7 +29,7 @@ test
 test
 
 ## License
-MIT
+mozilla public license 2.0
 
 ## Dependencies
 test
