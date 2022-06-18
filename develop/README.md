@@ -1,8 +1,9 @@
 
-# test6
+# test3
 
 ## Licence Badge
-'[![License: gnu gpl v3](https://img.shields.io/badge/License-GPLv3-blue.svg)])'
+ ![License: gnu gpl v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+
 
 ## Table of Contents
 
@@ -17,32 +18,32 @@
 - [Contributing](#Contributing)
    
 ## Github Account
-test6
+test3
 
 ## User email
-test6
+test3
         
 ## Project Name
-test6
+test3
 
 ## Description
-test6
+test3
 
 ## License
-mit
-'[![License: gnu gpl v3](https://img.shields.io/badge/License-GPLv3-blue.svg)])'
+
+![License: gnu gpl v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 ## Dependencies
-test6
+test3
 
 ## Command
-test6
+test3
 
 ## User-Info
-test6
+test3
 
 ## Contributing
-test6
+test3
 
 ## Questions
  If you have any questions about the repo, open an issue or contact me directly at ac.tendo67@gmail.com You can find more of my work at https://github.com/Muzan67

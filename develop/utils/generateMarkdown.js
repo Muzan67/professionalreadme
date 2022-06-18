@@ -12,9 +12,9 @@ function renderLicenseBadge(licenses) {
   } else if (licenses === 'apache license 2.0') {
     badge = '[![License: apache license 2.0 (https://img.shields.io/badge/License-Apache_2.0-blue.svg)])'
   } else if (licenses === 'mozilla public license 2.0') { 
-    badge = '[![License: mozilla public license 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]'
+    badge = '[![License: mozilla public license 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg])'
   } else if (licenses === 'mit') {
-    badge = '[![License: mit](https://img.shields.io/badge/License-MIT-yellow.svg)]'
+    badge = '[![License: mit](https://img.shields.io/badge/License-MIT-yellow.svg])'
   } else {
     badge = ""
   }
@@ -59,7 +59,8 @@ return `
 # ${answers.project}
 
 ## Licence Badge
-'[![License: gnu gpl v3](https://img.shields.io/badge/License-GPLv3-blue.svg)])'
+ '[![License: gnu gpl v3](https://img.shields.io/badge/License-GPLv3-blue.svg)])'
+
 
 ## Table of Contents
 
