@@ -1,8 +1,8 @@
 
-# pro readme
+# test6
 
 ## Licence Badge
-[License: mit](https://img.shields.io/badge/License-MIT-yellow.svg)
+'[![License: gnu gpl v3](https://img.shields.io/badge/License-GPLv3-blue.svg)])'
 
 ## Table of Contents
 
@@ -17,32 +17,32 @@
 - [Contributing](#Contributing)
    
 ## Github Account
-muzan67
+test6
 
 ## User email
-ac.tendo67
+test6
         
 ## Project Name
-pro readme
+test6
 
 ## Description
-pro readme
+test6
 
 ## License
 mit
--[License: mit](https://img.shields.io/badge/License-MIT-yellow.svg)
+'[![License: gnu gpl v3](https://img.shields.io/badge/License-GPLv3-blue.svg)])'
 
 ## Dependencies
-npm i
+test6
 
 ## Command
-npm test
+test6
 
 ## User-Info
-repo contains readme
+test6
 
 ## Contributing
-instructions in repo
+test6
 
 ## Questions
  If you have any questions about the repo, open an issue or contact me directly at ac.tendo67@gmail.com You can find more of my work at https://github.com/Muzan67

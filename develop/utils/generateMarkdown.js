@@ -59,7 +59,7 @@ return `
 # ${answers.project}
 
 ## Licence Badge
-[License: mit](https://img.shields.io/badge/License-MIT-yellow.svg)
+'[![License: gnu gpl v3](https://img.shields.io/badge/License-GPLv3-blue.svg)])'
 
 ## Table of Contents
 
@@ -87,7 +87,7 @@ ${answers.description}
 
 ## License
 ${answers.licenses}
--[License: mit](https://img.shields.io/badge/License-MIT-yellow.svg)
+'[![License: gnu gpl v3](https://img.shields.io/badge/License-GPLv3-blue.svg)])'
 
 ## Dependencies
 ${answers.dependencies}
