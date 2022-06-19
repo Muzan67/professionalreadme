@@ -1,22 +1,14 @@
 {
-  "name": "professionalreadme",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Muzan67/professionalreadme.git"
-  },
-  "author": "\"alejandro\"",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Muzan67/professionalreadme/issues"
-  },
-  "homepage": "https://github.com/Muzan67/professionalreadme#readme",
-  "dependencies": {
-    "inquirer": "^8.2.4"
+    "name": "static-site",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "inquirer": "^6.3.1"
+    }
   }
-}
